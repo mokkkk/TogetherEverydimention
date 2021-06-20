@@ -1,0 +1,2 @@
+tellraw @a[tag=VDAskTarget] [{"text":"[体に良い]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/food/health/ans_yes"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[体に悪い]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/food/health/ans_no"}}]

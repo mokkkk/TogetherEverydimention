@@ -1,0 +1,2 @@
+tellraw @a[tag=VDAskTarget] [{"text":"[楽しい]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/task/like/ans_y"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[楽しくない]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/task/like/ans_n"}}]

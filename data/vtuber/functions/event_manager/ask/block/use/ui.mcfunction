@@ -1,0 +1,4 @@
+tellraw @a[tag=VDAskTarget] [{"text":"[建築]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/block/use/ans_construct"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[材料]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/block/use/ans_material"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[いろいろ]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/block/use/ans_somany"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[使わない]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/block/use/ans_useless"}}]

@@ -1,0 +1,3 @@
+tellraw @a[tag=VDAskTarget] [{"text":"[掘る]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/tool/use/ans_dig"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[たたかう]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/tool/use/ans_fight"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[いろいろ]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/tool/use/ans_other"}}]

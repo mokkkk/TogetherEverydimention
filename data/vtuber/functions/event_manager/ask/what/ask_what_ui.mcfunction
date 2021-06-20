@@ -1,0 +1,5 @@
+tellraw @a[tag=VDAskTarget] [{"text":"[ブロック]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/what/ask_what_ui_block"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[生き物]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/what/ask_what_ui_mob"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[食べ物]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/what/ask_what_ui_food"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[道具]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/what/ask_what_ui_tool"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[すること]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/what/ask_what_ui_task"}}]

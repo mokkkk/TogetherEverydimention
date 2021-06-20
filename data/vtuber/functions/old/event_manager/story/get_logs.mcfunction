@@ -1,0 +1,2 @@
+data modify storage vtuber_data_temporaly EventQueue append from storage vtuber_data_strings Strings[1]
+data modify storage vtuber_data_temporaly EventQueue append from storage vtuber_data_strings Strings[2]

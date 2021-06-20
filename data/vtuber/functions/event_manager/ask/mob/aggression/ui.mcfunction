@@ -1,0 +1,3 @@
+tellraw @a[tag=VDAskTarget] [{"text":"[襲ってくる]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/mob/aggression/ans_yes"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[襲ってこない]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/mob/aggression/ans_no"}}]
+tellraw @a[tag=VDAskTarget] [{"text":"[時と場合による]","color":"aqua","clickEvent":{"action":"run_command","value":"/function vtuber:event_manager/ask/mob/aggression/ans_soso"}}]
