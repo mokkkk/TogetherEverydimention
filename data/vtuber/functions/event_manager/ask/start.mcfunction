@@ -1,6 +1,7 @@
 #declare score_holder $vd_ask_answer 解答の一時保存
 
 tag @a remove VDAskTarget
+playsound ui.button.click master @s ~ ~ ~ 1 1
 
 # 手に持っているアイテムの名前を検出
 data modify storage vtuber_data_temporaly NewWord set value {Name:""}

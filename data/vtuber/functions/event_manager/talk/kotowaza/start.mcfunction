@@ -1,5 +1,6 @@
 #declare score_holder $vd_list_index
 
+playsound ui.button.click master @s ~ ~ ~ 1 1
 data modify storage vtuber_data_temporaly Datas set value {String:"",Data:""}
 
 # テキスト表示

@@ -1,5 +1,6 @@
 
 # 操作説明用Strings
+playsound ui.button.click master @s ~ ~ ~ 1 1
 
 # 何
 data modify storage vtuber_data_temporaly Datas set value {String:"",Data:{Name:""}}
