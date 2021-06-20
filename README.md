@@ -1,4 +1,4 @@
-# TogetherEverydimention
+# TogetherEverydimension
 どこのディメンションでもいっしょ データパック
 
 データパックを導入すると，チャット欄に操作用UIが表示されます．クリックして操作してください．（OP権，またはチートの有効が必要です）
